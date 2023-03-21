@@ -5,6 +5,7 @@ import com.nulltemp.server.domain.service.BurnDownChartValueService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Component
@@ -12,7 +13,7 @@ import java.util.List;
 public class BurnDownChartValueUseCase {
 	private final BurnDownChartValueService burnDownChartValueService;
 
-	public List<BurnDownChartValue> findBy(long burnDownChartId) {
-		return burnDownChartValueService.findBy(burnDownChartId);
+	public List<BurnDownChartValue> findBy(long burnDownChartId, LocalDate from, LocalDate to) {
+		return burnDownChartValueService.findBy(burnDownChartId, from, to);
 	}
 }
