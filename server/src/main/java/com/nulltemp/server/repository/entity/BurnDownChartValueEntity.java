@@ -8,7 +8,6 @@ import java.time.LocalDate;
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class BurnDownChartValueEntity extends CommonEntity {
-	private Long id;
 	private long burnDownChartId;
 	private LocalDate date;
 	private int value;

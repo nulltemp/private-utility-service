@@ -8,7 +8,6 @@ type BurnDownCharts = {
 }
 
 type BurnDownChartValue = {
-  id: Number,
   burnDownChartId: Number,
   date: String,
   value: Number

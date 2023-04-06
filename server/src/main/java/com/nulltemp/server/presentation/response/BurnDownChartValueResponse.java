@@ -13,7 +13,6 @@ public class BurnDownChartValueResponse {
 
 	@Data
 	public static class BurnDownChartValue {
-		private long id;
 		private long burnDownChartId;
 		private LocalDate date;
 		private int value;
