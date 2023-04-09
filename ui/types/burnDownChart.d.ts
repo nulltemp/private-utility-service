@@ -1,6 +1,6 @@
 type BurnDownChart = {
-  id: Number,
-  name: String
+  id: number,
+  name: string
 }
 
 type BurnDownCharts = {
@@ -9,8 +9,8 @@ type BurnDownCharts = {
 
 type BurnDownChartValue = {
   burnDownChartId: Number,
-  date: String,
-  value: Number
+  date: string,
+  value: number
 }
 
 type BurnDownChartValues = {
